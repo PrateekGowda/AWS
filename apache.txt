@@ -6,4 +6,5 @@ systemctl start httpd
 systemctl enable httpd
 cd /var/www/html
 
-echo "<h1> welcom eto Test Website Version 1.0 </h1>" > index.html
+#echo "<h1> welcom eto Test Website Version 1.0 </h1>" > index.html
+echo "<p> welcom eto Test Website Version 1.0 </p><h1>Machine 1</h1>" > index.html
